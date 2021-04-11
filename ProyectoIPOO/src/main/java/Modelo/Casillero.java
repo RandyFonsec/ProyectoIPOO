@@ -10,5 +10,5 @@ package Modelo;
  * @author Randy
  */
 public class Casillero {
-    
+    int a;
 }
