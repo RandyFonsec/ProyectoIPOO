@@ -9,6 +9,6 @@ package Controlador;
  *
  * @author Randy
  */
-public class admCounter {
+public class AdmCounter {
     
 }
