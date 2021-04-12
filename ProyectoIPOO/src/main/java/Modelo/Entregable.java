@@ -5,10 +5,22 @@
  */
 package Modelo;
 
+import java.util.ArrayList;
+import java.util.Calendar;
+
 /**
  *
  * @author Randy
  */
 public class Entregable {
+    
+    private int numeroReferencia;
+    private boolean entregado;
+    private String descripcion;
+    private String remitente;
+    private Cliente destinatario;
+    private double pesoKilogramos;
+    private TipoEntregable tipo;
+    private Calendar fechaRetiro;
     
 }
