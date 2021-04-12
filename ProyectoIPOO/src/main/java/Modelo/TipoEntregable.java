@@ -7,8 +7,28 @@ package Modelo;
 
 /**
  *
- * @author Randy
+ * @author kendall c
  */
-public class TipoEntregable {
+public enum TipoEntregable {
+    
+    SOBRE,
+    PAQUETE,
+    REVISTA;
+    
+    public static String decodificador(TipoEntregable valor) {
+        String respuesta = "";
+        switch (valor) {
+            case SOBRE: 
+                respuesta = "Sobre";
+                break;
+            case PAQUETE: 
+                respuesta = "Paquete";
+                break;
+            case REVISTA: 
+                respuesta = "Revista";
+                break;
+        }
+        return respuesta;
+    }
     
 }
