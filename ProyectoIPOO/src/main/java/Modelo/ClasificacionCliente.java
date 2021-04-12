@@ -9,6 +9,17 @@ package Modelo;
  *
  * @author Randy
  */
-public class ClasificacionCliente {
-    
+public enum ClasificacionCliente {
+    NORMAL,
+    PLATA,
+    ORO;
+    public static String decodificador(ClasificacionCliente valor){
+        String respuesta = "";
+        switch(valor){
+            case NORMAL -> respuesta = "Normal";
+            case PLATA -> respuesta = "Respuesta";
+            case ORO -> respuesta = "Oro";
+        }
+        return respuesta;
+    }
 }
