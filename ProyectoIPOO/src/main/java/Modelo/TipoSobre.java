@@ -14,17 +14,14 @@ public enum TipoSobre {
     MANILA,
     AEREO;
     
-    public static String decodificador(TipoEntregable valor) {
+    public static String decodificador(TipoSobre valor) {
         String respuesta = "";
         switch (valor) {
-            case SOBRE: 
-                respuesta = "Sobre";
+            case MANILA : 
+                respuesta = "Manila";
                 break;
-            case PAQUETE: 
-                respuesta = "Paquete";
-                break;
-            case REVISTA: 
-                respuesta = "Revista";
+            case AEREO: 
+                respuesta = "Aereo";
                 break;
         }
         return respuesta;
