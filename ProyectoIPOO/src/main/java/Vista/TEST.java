@@ -18,7 +18,7 @@ public class TEST {
     public static void main(String args[]){
         PantallaCreacionCounter c = new PantallaCreacionCounter();
         c.setVisible(true);
-        
+        System.out.println("Hola :)");
     
     
     
